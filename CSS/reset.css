@@ -1,0 +1,51 @@
+/* Reset.css */
+
+/* Box model border box */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Remove default padding and margin */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles on ul and ol elements */
+ul, ol {
+    list-style: none;
+}
+
+/* Set base font size and line height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove default button styles */
+button {
+    border: 0;
+    padding: 0;
+    background: none;
+}
+
+/* Remove outline on active elements */
+a, button, input, select, textarea {
+    outline: none;
+}
+
+/* Remove default table spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
